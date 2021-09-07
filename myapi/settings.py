@@ -146,7 +146,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #6. 데이터베이스 밑에 아래 코드 추가
 #6-1. db_from_env = dj_database_url.config(conn_max_age=500)
 #6-2. DATABASES['default'].update(db_from_env)
-#7. Root 디렉토리에 Profile 생성
+#7. Root 디렉토리에 Procfile 생성
 #8. Root 디렉토리에 runtime.txt생성 => 버전확인은 터미널에서 python -V
 #9. cli 기반 배포를 할 것이므로 => 터미널에서 brew install heroku/brew/heroku
 #10. Git
