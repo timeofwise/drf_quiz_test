@@ -153,3 +153,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #10.1 git init
 #10.2 git add --all
 #10.3 git commit -m "comment"
+#10.4 git remote add origin https://github.com/timeofwise/drf_quiz_test.git
+#10.5 git push
+#10.6 heroku login
+#10.7 heroku create drf-quiz-test-limited
+#10.8 git push heroku master
+#10.9 heroku run python manage.py migrate
+#10.10 heroku run python manage.py createsuperuser 로 관리자 계정 재생성
+#10.11 heroku open
